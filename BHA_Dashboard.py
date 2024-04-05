@@ -5,7 +5,7 @@ import streamlit as st
 st.set_page_config(page_title="BHA Dashboard",
                    page_icon=":bar_chart:",
                    layout="wide")
-df = pd.read_excel(io="C:\Server\DataAnalysis\BHA_Data Collection Format.xlsx",
+df = pd.read_excel(io="/workspaces/DataAnalysis/BHA_Data Collection Format.xlsx",
                    engine='openpyxl',
                    sheet_name='Data Sheet',
                    nrows=1000,
